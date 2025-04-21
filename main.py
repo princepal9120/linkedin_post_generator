@@ -1,6 +1,6 @@
 import streamlit as st
 from few_shot import FewShotPosts
-from gen_post import generate_post
+from post_generator import generate_post
 
 
 # Options for length and language
@@ -10,7 +10,7 @@ language_options = ["English", "Hinglish"]
 
 # Main app layout
 def main():
-    st.subheader("LinkedIn Post Generator")
+    st.subheader("LinkedIn Post Generator: Codebasics")
 
     # Create three columns for the dropdowns
     col1, col2, col3 = st.columns(3)
